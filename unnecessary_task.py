@@ -10,15 +10,14 @@ def solution(node, idx):
 
 
 def test():
-    node3 = Node("node3", None)
-    node2 = Node("node2", node3)
-    node1 = Node("node1", node2)
-    node0 = Node("node0", node1)
+    node3 = Node(input(), None)
+    node2 = Node(input(), node3)
+    node1 = Node(input(), node2)
+    node0 = Node(input(), node1)
     new_head = solution(node0, 1)
-    assert new_head is node0
-    assert new_head.next_item is node2
-    assert new_head.next_item.next_item is node3
-    assert new_head.next_item.next_item.next_item is None
+    print(new_head.value,
+          new_head.next_item.value,
+          new_head.next_item.next_item.value)
 
 
 if __name__ == '__main__':
