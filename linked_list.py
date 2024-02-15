@@ -5,7 +5,7 @@ class Node:
 
 
 def solution(node):
-    ...
+    # Ваш код тут
 
 
 def test():
