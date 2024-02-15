@@ -14,7 +14,7 @@ def test():
     node2 = Node(input(), node3)
     node1 = Node(input(), node2)
     node0 = Node(input(), node1)
-    new_head = solution(node0, 1)
+    new_head = solution(node0, int(input()))
     print(new_head.value,
           new_head.next_item.value,
           new_head.next_item.next_item.value)
