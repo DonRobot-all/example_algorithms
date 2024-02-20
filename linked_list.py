@@ -6,6 +6,7 @@ class Node:
 
 def solution(node):
     # Ваш код тут
+    pass
 
 
 def test():
