@@ -11,10 +11,10 @@ def solution(node):
 
 
 def test():
-    node3 = DoubleConnectedNode(input())
-    node2 = DoubleConnectedNode(input())
-    node1 = DoubleConnectedNode(input())
     node0 = DoubleConnectedNode(input())
+    node1 = DoubleConnectedNode(input())
+    node2 = DoubleConnectedNode(input())
+    node3 = DoubleConnectedNode(input())
     node0.next = node1
     node1.prev = node0
     node1.next = node2

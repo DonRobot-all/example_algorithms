@@ -10,10 +10,10 @@ def solution(node, elem):
 
 
 def test():
-    node3 = Node("книга3", None)
-    node2 = Node("книга2", node3)
-    node1 = Node("книга1", node2)
-    node0 = Node("книга0", node1)
+    node3 = Node(input(), None)
+    node2 = Node(input(), node3)
+    node1 = Node(input(), node2)
+    node0 = Node(input(), node1)
     idx = solution(node0, input())
     print(idx)
 
